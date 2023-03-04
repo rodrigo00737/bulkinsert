@@ -90,7 +90,7 @@ namespace Lab.BulkInsert.Dados
         private void ValidateConnection()
         {
             if (_connection == null)
-                throw new Exception("É necessário o Oracle Database Connection");
+                throw new Exception("É necessário o Postgres Database Connection");
         }
 
         private void OpenConnection()
