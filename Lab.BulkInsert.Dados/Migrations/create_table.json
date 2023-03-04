@@ -1,0 +1,11 @@
+{
+  CREATE TABLE exchange (
+	id int4 NULL,
+	"data" timestamp NULL,
+	tipooperacao varchar NULL,
+	ativo varchar NULL,
+	quantidade int4 NULL,
+	preco numeric NULL,
+	conta int4 NULL
+);
+}
